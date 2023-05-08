@@ -1,0 +1,32 @@
+{
+  "name": "html-builder",
+  "version": "1.0.0",
+  "description": "html-builder task for RSSchool",
+  "scripts": {
+    "node 01-read-file": "node index.js",
+    "node 02-write-file": "node index.js",
+    "node 03-files-in-folder": "node index.js",
+    "node 04-copy-directory": "node index.js",
+    "node 05-merge-styles": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evgeniimal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniiMal/html-builder-black/issues"
+  },
+  "homepage": "https://github.com/EvgeniiMal/html-builder-black#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "eslint": "^7.32.0"
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenyka9696/HTML-builder.git"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "prompt-sync": "^4.2.0"
+  }
+}
